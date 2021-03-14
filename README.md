@@ -8,10 +8,10 @@
 ##	Usage: 
 
 	if ( !global.objects ) {
-	    var Objects = require('/home/perladm/node-apps/lib/Objects').Objects;
+	    var Objects = require('/home/xxx/node-apps/lib/Objects').Objects;
 	    Objects     = new Objects();
 	
-	    Objects.init( { path: '/home/perladm/node-apps/lib' } );
+	    Objects.init( { path: '/home/xxx/node-apps/lib' } );
 	    console.log( global.objects );
 	}
 
